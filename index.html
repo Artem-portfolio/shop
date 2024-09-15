@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#" class="logo">
+            <img src="images/logo.svg" alt="" />
+          </a>
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Furniture</a>
+              <div class="nav-list__sub-nav">
+                <ul class="sub-nav">
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Home</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Services</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Products</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Contacts</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="nav-list__sub-nav">
+                <ul class="sub-nav">
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Home</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Services</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Products</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Contacts</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Shop</a>
+              <div class="nav-list__sub-nav">
+                <ul class="sub-nav">
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Home</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Services</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Products</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Contacts</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">About us</a>
+              <div class="nav-list__sub-nav">
+                <ul class="sub-nav">
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Home</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Services</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Products</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Contacts</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Contact</a>
+              <div class="nav-list__sub-nav">
+                <ul class="sub-nav">
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Home</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Services</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Products</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a href="#" class="sub-nav__link">Contacts</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+
+          <a class="cart" href="#">
+            <img class="cart__img" src="images/cart.svg" alt="" />
+            <div class="cart__counter">0</div>
+          </a>
+
+          <button class="nav__btn">
+            <img src="images/burger-on.svg" alt="" />
+          </button>
+        </nav>
+
+        <div class="header__content">
+          <h1 class="header__title">
+            Make your interior more minimalistic & modern
+          </h1>
+          <p>
+            Turn your room with panto into a lot more minimalist and modern with
+            ease and speed
+          </p>
+          <form class="search__form">
+            <input
+              placeholder="Search furniture"
+              type="text"
+              class="search__form-input"
+            />
+            <button class="search__form-btn">
+              <img src="images/search.svg" alt="" />
+            </button>
+          </form>
+        </div>
+
+        <div class="header__dot header__dot--sofa">
+          <button class="info-dot">
+            <div class="info-dot__circle"></div>
+            <div class="info-dot__radius"></div>
+          </button>
+          <div class="info-hint none">
+            <label>
+              <input type="radio" name="sofa-color" class="info-hint__radio" />
+              <div
+                class="info-hint__radio-fake info-hint__radio-fake--orange"
+              ></div>
+            </label>
+            <label>
+              <input type="radio" name="sofa-color" class="info-hint__radio" />
+              <div
+                class="info-hint__radio-fake info-hint__radio-fake--biruza"
+              ></div>
+            </label>
+            <label>
+              <input type="radio" name="sofa-color" class="info-hint__radio" />
+              <div
+                class="info-hint__radio-fake info-hint__radio-fake--grey"
+              ></div>
+            </label>
+          </div>
+        </div>
+
+        <div class="header__dot header__dot--vase">
+          <div class="info-dot">
+            <div class="info-dot__circle"></div>
+            <div class="info-dot__radius"></div>
+          </div>
+          <div class="info-hint none">
+            <label>
+              <input type="radio" name="vase-color" class="info-hint__radio" />
+              <div
+                class="info-hint__radio-fake info-hint__radio-fake--orange"
+              ></div>
+            </label>
+            <label>
+              <input type="radio" name="vase-color" class="info-hint__radio" />
+              <div
+                class="info-hint__radio-fake info-hint__radio-fake--biruza"
+              ></div>
+            </label>
+            <label>
+              <input type="radio" name="vase-color" class="info-hint__radio" />
+              <div
+                class="info-hint__radio-fake info-hint__radio-fake--grey"
+              ></div>
+            </label>
+          </div>
+        </div>
+
+        <div class="header__dot header__dot--item">
+          <div class="info-dot">
+            <div class="info-dot__circle"></div>
+            <div class="info-dot__radius"></div>
+          </div>
+          <div class="info-hint none">
+            <label>
+              <input type="radio" name="item-color" class="info-hint__radio" />
+              <div
+                class="info-hint__radio-fake info-hint__radio-fake--orange"
+              ></div>
+            </label>
+            <label>
+              <input type="radio" name="item-color" class="info-hint__radio" />
+              <div
+                class="info-hint__radio-fake info-hint__radio-fake--biruza"
+              ></div>
+            </label>
+            <label>
+              <input type="radio" name="item-color" class="info-hint__radio" />
+              <div
+                class="info-hint__radio-fake info-hint__radio-fake--grey"
+              ></div>
+            </label>
+          </div>
+        </div>
+
+        <div class="header__dot header__dot--wall">
+          <div class="info-dot">
+            <div class="info-dot__circle"></div>
+            <div class="info-dot__radius"></div>
+          </div>
+          <div class="info-hint none">
+            <label>
+              <input type="radio" name="wall-color" class="info-hint__radio" />
+              <div
+                class="info-hint__radio-fake info-hint__radio-fake--orange"
+              ></div>
+            </label>
+            <label>
+              <input type="radio" name="wall-color" class="info-hint__radio" />
+              <div
+                class="info-hint__radio-fake info-hint__radio-fake--biruza"
+              ></div>
+            </label>
+            <label>
+              <input type="radio" name="wall-color" class="info-hint__radio" />
+              <div
+                class="info-hint__radio-fake info-hint__radio-fake--grey"
+              ></div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="mask"></div>
+
+    <!-- MOBILE-NAV -->
+
+    <div class="mobile-nav-wrapper">
+      <div class="mobile-nav-header">
+        <a href="#cart" class="mobile-cart">
+          <div class="cart" href="#">
+            <img class="cart__img" src="images/cart.svg" alt="" />
+            <div class="cart__counter">0</div>
+          </div>
+          <span>Cart</span>
+        </a>
+
+        <button class="mobile-nav-btn-close">
+          <img src="images/burger-close.svg" alt="" />
+        </button>
+      </div>
+      <ul class="mobile-nav">
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">Furniture</a>
+          <ul class="mobile-sub-nav">
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Home</a>
+            </li>
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Services</a>
+            </li>
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Products</a>
+            </li>
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Contacts</a>
+            </li>
+          </ul>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">Shop</a>
+
+          <ul class="mobile-sub-nav">
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Home</a>
+            </li>
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Services</a>
+            </li>
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Products</a>
+            </li>
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Contacts</a>
+            </li>
+          </ul>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">About us</a>
+          <ul class="mobile-sub-nav">
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Home</a>
+            </li>
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Services</a>
+            </li>
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Products</a>
+            </li>
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Contacts</a>
+            </li>
+          </ul>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">Contact</a>
+          <ul class="mobile-sub-nav">
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Home</a>
+            </li>
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Services</a>
+            </li>
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Products</a>
+            </li>
+            <li class="mobile-sub-nav__item">
+              <a href="#" class="mobile-sub-nav__link">Contacts</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <!--// MOBILE-NAV -->
+
+    <section class="benefits">
+      <div class="container">
+        <div class="benefits__inner">
+          <h2 class="benefits__title title">
+            Why
+            <br />
+            Choosing Us
+          </h2>
+          <div class="benefits__item">
+            <h3 class="benefits__item-title">Luxury facilities</h3>
+            <p class="benefits__item-text">
+              The advantage of hiring a workspace with us is that givees you
+              comfortable service and all-around facilities.
+            </p>
+            <a href="#" class="read-more">More Info</a>
+          </div>
+          <div class="benefits__item">
+            <h3 class="benefits__item-title">Affordable Price</h3>
+            <p class="benefits__item-text">
+              You can get a workspace of the highst quality at an affordable
+              price and still enjoy the facilities that are oly here.
+            </p>
+            <a href="#" class="read-more">More Info</a>
+          </div>
+          <div class="benefits__item">
+            <h3 class="benefits__item-title">Many Choices</h3>
+            <p class="benefits__item-text">
+              We provide many unique work space choices so that you can choose
+              the workspace to your liking.
+            </p>
+            <a href="#" class="read-more">More Info</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="container">
+        <h2 class="products__title title">Best Selling Product</h2>
+        <div class="products__tabs">
+          <div class="tab-controls">
+            <button
+              class="tab-controls__btn tab-controls__btn--active"
+              data-tab="all"
+            >
+              All
+            </button>
+            <button class="tab-controls__btn" data-tab="chair">Chair</button>
+            <button class="tab-controls__btn" data-tab="bed">Beds</button>
+            <button class="tab-controls__btn" data-tab="sofa">Sofa</button>
+            <button class="tab-controls__btn" data-tab="lamp">Lamp</button>
+          </div>
+        </div>
+        <div class="products__slider">
+          <div class="slider">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="card swiper-slide" data-tab-value="chair">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-01.png"
+                      srcset="images/chair-01@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Chair</a>
+                    <div class="card__title">Sakarias Armchair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">392</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card swiper-slide" data-tab-value="chair">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-01.png"
+                      srcset="images/chair-01@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Chair</a>
+                    <div class="card__title">Sakarias Armchair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">392</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="chair">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-02.png"
+                      srcset="images/chair-02@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Chair</a>
+                    <div class="card__title">Baltsar Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">299</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="bed">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-03.png"
+                      srcset="images/chair-03@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Bed</a>
+                    <div class="card__title">Anjay Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">519</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="sofa">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-04.png"
+                      srcset="images/chair-04@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Sofa</a>
+                    <div class="card__title">Nyantuy Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">921</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="lamp">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-01.png"
+                      srcset="images/chair-01@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Lamp</a>
+                    <div class="card__title">Sakarias Armchair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">392</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="chair">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-02.png"
+                      srcset="images/chair-02@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Chair</a>
+                    <div class="card__title">Baltsar Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">299</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="sofa">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-04.png"
+                      srcset="images/chair-04@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Sofa</a>
+                    <div class="card__title">Nyantuy Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">921</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="bed">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-03.png"
+                      srcset="images/chair-03@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Bed</a>
+                    <div class="card__title">Anjay Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">519</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="sofa">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-04.png"
+                      srcset="images/chair-04@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Sofa</a>
+                    <div class="card__title">Nyantuy Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">921</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="bed">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-03.png"
+                      srcset="images/chair-03@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Bed</a>
+                    <div class="card__title">Anjay Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">519</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="sofa">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-04.png"
+                      srcset="images/chair-04@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Sofa</a>
+                    <div class="card__title">Nyantuy Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">921</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="lamp">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-04.png"
+                      srcset="images/chair-04@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Lamp</a>
+                    <div class="card__title">Nyantuy Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">921</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="lamp">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-04.png"
+                      srcset="images/chair-04@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Lamp</a>
+                    <div class="card__title">Nyantuy Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">921</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="lamp">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-04.png"
+                      srcset="images/chair-04@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Lamp</a>
+                    <div class="card__title">Nyantuy Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">921</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="chair">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-04.png"
+                      srcset="images/chair-04@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Chair</a>
+                    <div class="card__title">Nyantuy Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">921</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide" data-tab-value="sofa">
+                  <a href="#products" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      class="card__img"
+                      src="images/chair-04.png"
+                      srcset="images/chair-04@2x.png 2x"
+                    />
+                  </div>
+                  <div class="card__descr">
+                    <a href="#category" class="card__category">Sofa</a>
+                    <div class="card__title">Nyantuy Chair</div>
+                    <div class="card__rating">
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star.svg" alt="" />
+                      <img src="images/star-off.svg" alt="" />
+                    </div>
+                    <div class="card__footer">
+                      <div class="card__price" data-value="$">921</div>
+                      <button class="card__btn"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="slider__btn slider__btn--prev">
+              <img src="images/slider-left.svg" alt="" />
+            </button>
+            <button class="slider__btn slider__btn--next">
+              <img src="images/slider-left.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="products__link">
+          <a href="#" class="read-more read-more--large">View All</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container container-small">
+        <!-- footer__grid -->
+        <div class="footer__grid">
+          <!-- Desc -->
+
+          <div class="footer__desc">
+            <div class="footer__logo">Panto</div>
+            <p>
+              The advantage of hiring a workspace with us is that givees you
+              comfortable service and all-around facilities.
+            </p>
+          </div>
+
+          <!-- //Desc -->
+          <nav class="footer__nav footer__nav--servives">
+            <h3 class="footer__nav-title">Services</h3>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#">Email Marketing</a></li>
+              <li class="footer__item"><a href="#">Campaigns</a></li>
+              <li class="footer__item"><a href="#">Branding</a></li>
+            </ul>
+          </nav>
+          <nav class="footer__nav">
+            <h3 class="footer__nav-title">Furniture</h3>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#">Beds</a></li>
+              <li class="footer__item"><a href="#">Chair</a></li>
+              <li class="footer__item"><a href="#">All</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- // footer__grid -->
+
+        <div class="footer__row">
+          <div class="footer__copyright">Copyright © 2021</div>
+          <div class="footer__links">
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

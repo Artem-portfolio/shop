@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@400;600&display=swap');
+
+body {
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+body.active {
+  overflow: hidden;
+}
+
+button {
+  font-family: 'Gilroy';
+}
+.container {
+  max-width: 1310px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  &-small {
+    max-width: 1094px;
+  }
+}
+
+.none {
+  display: none !important;
+}
+
+.read-more {
+  color: var(--accent);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.85;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+
+  &::after {
+    content: url(../images/arrow-right.svg);
+    height: 22px;
+  }
+
+  &--large {
+    font-size: 18px;
+    &::after {
+      height: auto;
+    }
+  }
+}
+
+.mask {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+  z-index: -1;
+
+  transition: all 0.3s;
+  &.active {
+    z-index: 10;
+    opacity: 0.6;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: clamp(2rem, 1.821rem + 0.89vw, 2.625rem);
+}
